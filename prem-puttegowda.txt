@@ -1,0 +1,102 @@
+#code pen link to the project
+
+https://codepen.io/premkgowda/pen/eYYGZvm?editors=1100
+
+##Answer to Questions:
+
+Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+      Prem: semantic is process of providing meaning and structure to your content
+    2. What is HTML used for? 
+    Prem:for marking up the language
+    3. What is an attribute and where do we put it? 
+     Prem: attribute is an html property
+    4. What is the h1 tag used for? How many times should I use it on a page?
+      Prem:h1 should be used mostly once and as a heading that gives the meaning to the whole file
+    5. Name two tags that have required attributes
+     Prem: <img> <a>
+    6. What do we put in the head of our HTML document? 
+      Prem:title, link to css or javascript any meta data
+    7. What is an id? 
+      Prem:id is an unique attribute to identify an html tag
+    8. What elements can I add an id to? 
+     Prem: can add it to any html elements( example h1, <p>, div etc)  
+      
+    9. How many times can I use the same id on a page? 
+     Prem: once
+    10. What is a class? 
+      Prem:   it's an attribute used for styling
+    11. What elements can I add a class to? 
+       Prem: any html element
+    12. How many times can I use the same class on a page? 
+       Prem:   as many times as needed
+    13. How do I get my link to open in a new tab?
+       Prem: target="_blank"
+    14. What is the alt attribute used for? 
+      Prem: To display if img can't be loaded
+    15. How do I reference an id?
+        Prem:#id
+    16. What is the difference between a section and a div
+        Prem: Section is semantic where as div is used for styling
+    17. What is CSS used for? 
+        Prem: for styling the web page
+    18. How to we select an element? Example - every h2 on the page
+        Prem:h2{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+     Prem: class is an attribute used for styling all elements with a class. Id is used for functionality ( suggested) however can be used for styling. Id is unique but classes are not
+    20. How do we select classes in CSS?
+       Prem: .classname{}
+    21. How do we select a p element with a single class of “human””?
+      p.human
+    22. What is a parent child selector? When would this be useful? 
+      Prem: parent child selectors are seperated by space..it styles the child of a parent when selected in that order
+    23. How do you select all links within a div with the class of sidebar?
+   prem div.sidebar a{
+
+}
+    24. What is a pseudo selector?
+      specific state of an element
+    25. What do we use the change the spacing between lines?
+    prem: line-height
+    26. What do we use to change the spacing between letters?
+    Premletter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+Prem - text: capitalize, text: uppercase, text lowercase
+    28. How do I add a 1px border around my div that is dotted and black?
+Prem: border{1px dotted black;} 
+    29. How do I select everything on the page? 
+        *{}
+    30. How do I write a comment in CSS?
+      Prem: /* */
+    31. How do I find out what file I am in, when I am using the command line? 
+      Prem: pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+      Prem: ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+      Prem: rm. Need to be careful because file will be permanently removed.
+    34. Why should I use version control? 
+      Prem: To keep trakc of chagnes and, collaborate with other developers
+    35. How often should I commit to github?
+      Prem:when a new changes is made to the file (typically when a change constitute something that is complete or has some meaning)
+    36. What is the command we would use to push our repo up to github? 
+    Prem:git push
+    37. Walk me through Lambda's git flow. 
+      Prem:fork the repo ( add collaborator)--clone the repo-- make changes--git add--git commit--git push. In github(git pull the committed repo add reviewers) and submit for merge
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+      Prem:Inline doesn't change the meaning and displayed next to each other height and width property is based on the content
+    2. What happens when an element is positioned absolutely? 
+      Prem: the position of the element is in a fixed position in relative to the parent element
+      
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+Prem: Use inline-block
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+Prem: <span> <a> ( inline)
+<div><p><section> ( block)
+img(inline-block)
+    5. In your own words, explain the box model. What is the fix for the box model? 
+Prem: Box model is a model where every element is displayed as a box. The box model size varies based on the margin, padding and hard to set a width that is suitable for both content and the overall space.
+Flex seems to be the solution for box model
